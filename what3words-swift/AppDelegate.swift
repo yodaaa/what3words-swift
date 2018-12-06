@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import what3words
+// https://github.com/what3words/w3w-swift-wrapper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        W3wGeocoder.setup(with: "CYDKI2GR")
         return true
     }
 

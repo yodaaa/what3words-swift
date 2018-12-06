@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import what3words
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        W3wGeocoder.shared.forwardGeocode(addr: "index.home.raft") { (result, error) in
+            print(result)
+        }
+        
+        W3wGeocoder.shared.languages { (result, error) in
+            print(result)
+        }
     }
 
 

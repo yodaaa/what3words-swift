@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9B355637B4B3D97DFC4F677 /* Pods_what3words_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C27BB8C4942B131E7C51298 /* Pods_what3words_swiftTests.framework */; };
+		AC64DE6DF533E0C0B8BCA57C /* Pods_what3words_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2715F1FB623D2C2ED5EE36 /* Pods_what3words_swiftUITests.framework */; };
 		D52201EA219AADA40016EAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52201E9219AADA40016EAF0 /* AppDelegate.swift */; };
 		D52201EC219AADA40016EAF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52201EB219AADA40016EAF0 /* ViewController.swift */; };
 		D52201EF219AADA40016EAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52201ED219AADA40016EAF0 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D52201F4219AADA60016EAF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52201F2219AADA60016EAF0 /* LaunchScreen.storyboard */; };
 		D52201FF219AADA60016EAF0 /* what3words_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52201FE219AADA60016EAF0 /* what3words_swiftTests.swift */; };
 		D522020A219AADA60016EAF0 /* what3words_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5220209219AADA60016EAF0 /* what3words_swiftUITests.swift */; };
+		E3016A61223F059DFDDD267F /* Pods_what3words_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0071DCF2F1C5A697CDF3B729 /* Pods_what3words_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0071DCF2F1C5A697CDF3B729 /* Pods_what3words_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_what3words_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01867BE2D98EBB971F916972 /* Pods-what3words-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what3words-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-what3words-swift/Pods-what3words-swift.release.xcconfig"; sourceTree = "<group>"; };
+		3A84D72CAAC92293D3F44C7E /* Pods-what3words-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what3words-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-what3words-swiftUITests/Pods-what3words-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C27BB8C4942B131E7C51298 /* Pods_what3words_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_what3words_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90251B9D0A9283DDB963AB /* Pods-what3words-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what3words-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-what3words-swiftUITests/Pods-what3words-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7FE659C452DDBB38CAB3BAF /* Pods-what3words-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what3words-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-what3words-swift/Pods-what3words-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		D52201E6219AADA40016EAF0 /* what3words-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "what3words-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52201E9219AADA40016EAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D52201EB219AADA40016EAF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		D5220205219AADA60016EAF0 /* what3words-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "what3words-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5220209219AADA60016EAF0 /* what3words_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = what3words_swiftUITests.swift; sourceTree = "<group>"; };
 		D522020B219AADA60016EAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B2A79DF1624FBFB1527ADA /* Pods-what3words-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what3words-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-what3words-swiftTests/Pods-what3words-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7EF6739F102C19F26782679 /* Pods-what3words-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what3words-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-what3words-swiftTests/Pods-what3words-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2715F1FB623D2C2ED5EE36 /* Pods_what3words_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_what3words_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3016A61223F059DFDDD267F /* Pods_what3words_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B355637B4B3D97DFC4F677 /* Pods_what3words_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC64DE6DF533E0C0B8BCA57C /* Pods_what3words_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B02529E61A4A5181237A4378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0071DCF2F1C5A697CDF3B729 /* Pods_what3words_swift.framework */,
+				9C27BB8C4942B131E7C51298 /* Pods_what3words_swiftTests.framework */,
+				EB2715F1FB623D2C2ED5EE36 /* Pods_what3words_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D52201DD219AADA40016EAF0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				D52201FD219AADA60016EAF0 /* what3words-swiftTests */,
 				D5220208219AADA60016EAF0 /* what3words-swiftUITests */,
 				D52201E7219AADA40016EAF0 /* Products */,
+				E25732232B01A53930563F13 /* Pods */,
+				B02529E61A4A5181237A4378 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "what3words-swiftUITests";
 			sourceTree = "<group>";
 		};
+		E25732232B01A53930563F13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7FE659C452DDBB38CAB3BAF /* Pods-what3words-swift.debug.xcconfig */,
+				01867BE2D98EBB971F916972 /* Pods-what3words-swift.release.xcconfig */,
+				D7EF6739F102C19F26782679 /* Pods-what3words-swiftTests.debug.xcconfig */,
+				D5B2A79DF1624FBFB1527ADA /* Pods-what3words-swiftTests.release.xcconfig */,
+				AC90251B9D0A9283DDB963AB /* Pods-what3words-swiftUITests.debug.xcconfig */,
+				3A84D72CAAC92293D3F44C7E /* Pods-what3words-swiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D522020E219AADA60016EAF0 /* Build configuration list for PBXNativeTarget "what3words-swift" */;
 			buildPhases = (
+				9546C7993A81E8FF1485E161 /* [CP] Check Pods Manifest.lock */,
 				D52201E2219AADA40016EAF0 /* Sources */,
 				D52201E3219AADA40016EAF0 /* Frameworks */,
 				D52201E4219AADA40016EAF0 /* Resources */,
+				34976555FCB6EF6E139605DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5220211219AADA60016EAF0 /* Build configuration list for PBXNativeTarget "what3words-swiftTests" */;
 			buildPhases = (
+				E1AD76E6074CB1C1850F66D0 /* [CP] Check Pods Manifest.lock */,
 				D52201F6219AADA60016EAF0 /* Sources */,
 				D52201F7219AADA60016EAF0 /* Frameworks */,
 				D52201F8219AADA60016EAF0 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5220214219AADA60016EAF0 /* Build configuration list for PBXNativeTarget "what3words-swiftUITests" */;
 			buildPhases = (
+				4BB3E41CC5190E58F7EE1833 /* [CP] Check Pods Manifest.lock */,
 				D5220201219AADA60016EAF0 /* Sources */,
 				D5220202219AADA60016EAF0 /* Frameworks */,
 				D5220203219AADA60016EAF0 /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34976555FCB6EF6E139605DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-what3words-swift/Pods-what3words-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/what3words/what3words.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/what3words.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-what3words-swift/Pods-what3words-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BB3E41CC5190E58F7EE1833 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-what3words-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9546C7993A81E8FF1485E161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-what3words-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AD76E6074CB1C1850F66D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-what3words-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D52201E2219AADA40016EAF0 /* Sources */ = {
@@ -430,15 +549,13 @@
 		};
 		D522020F219AADA60016EAF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FE659C452DDBB38CAB3BAF /* Pods-what3words-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKGH3PPX4X;
 				INFOPLIST_FILE = "what3words-swift/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yodaaa.what3words-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -448,15 +565,13 @@
 		};
 		D5220210219AADA60016EAF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01867BE2D98EBB971F916972 /* Pods-what3words-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKGH3PPX4X;
 				INFOPLIST_FILE = "what3words-swift/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yodaaa.what3words-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -466,17 +581,14 @@
 		};
 		D5220212219AADA60016EAF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EF6739F102C19F26782679 /* Pods-what3words-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKGH3PPX4X;
 				INFOPLIST_FILE = "what3words-swiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yodaaa.what3words-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -487,17 +599,14 @@
 		};
 		D5220213219AADA60016EAF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B2A79DF1624FBFB1527ADA /* Pods-what3words-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKGH3PPX4X;
 				INFOPLIST_FILE = "what3words-swiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yodaaa.what3words-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -508,16 +617,13 @@
 		};
 		D5220215219AADA60016EAF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC90251B9D0A9283DDB963AB /* Pods-what3words-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKGH3PPX4X;
 				INFOPLIST_FILE = "what3words-swiftUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yodaaa.what3words-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -528,16 +634,13 @@
 		};
 		D5220216219AADA60016EAF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A84D72CAAC92293D3F44C7E /* Pods-what3words-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKGH3PPX4X;
 				INFOPLIST_FILE = "what3words-swiftUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yodaaa.what3words-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
